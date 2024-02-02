@@ -122,6 +122,8 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+STATIC_ROOT = BASE_DIR / 'static'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
@@ -138,3 +140,5 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 STRIPE_PUBLISHABLE_KEY = 'pk_test_51OOwlWCyIuuw3gX7BwkhhYAuCDMoCWc0BuqP1sjGedGSuWjCqAwqAI0yHmcdI08MMFEMRzsUcTQQBt3QPlmJF42f00Vbtqghy4'  # Публикуемый ключ
 STRIPE_SECRET_KEY = 'sk_test_51OOwlWCyIuuw3gX7Yo9m22JO8Cq4nU1fumvxQICIqRDwMe034r4K8d77nzmF7n9wpCsR3s95hZx052FhsDGrw9Rm00KqOzi5CP'  # Секретный ключ
 STRIPE_API_VERSION = '2023-10-16'
+
+STRIPE_WEBHOOK_SECRET = 'whsec_49a33ea147823da3d5731fdffb379c6d79330dc145f43ac4f3ee18263ea2a32a'

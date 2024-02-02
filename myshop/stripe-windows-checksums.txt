@@ -1,0 +1,2 @@
+7f132eb6555297a1aa64aa6d3ee73408a146f8df0dd1f311c1c05d8975058606  stripe_1.18.0_windows_i386.zip
+ceae2c5333ac9a2bb7276e5bf1b9544cc97eb9a997cd1c54e14daca200ef76f9  stripe_1.18.0_windows_x86_64.zip
